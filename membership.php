@@ -3,7 +3,7 @@ website: www.dollarstir.com
  contact +233556676471
  email:kpin463@gmail.com -->
 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,7 +11,7 @@ website: www.dollarstir.com
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>About|Vidagua Club</title>
+	<title>Memebership |Vidagua Club</title>
 
 	<?php include 'core.php';?>
 
@@ -64,8 +64,8 @@ website: www.dollarstir.com
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcroumb-title text-center">
-						<h1>About Us</h1>
-						<h6><a href="index.php">Home</a> / About Us</h6>
+						<h1>Become A member </h1>
+						<h6><a href="index.php">Home</a> / Memebership</h6>
 					</div>
 				</div>
 			</div>
@@ -79,20 +79,22 @@ website: www.dollarstir.com
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="about-image">
-						<img src="assets/cc/abt.jpg" alt="">
+						<img src="assets/cc/vc.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-lg-5">
 					<div class="about-content">
 						<div class="section-title">
 							<!-- <h6>A little B More</h6> -->
-							<h2>About Vidagua <b>Club</b></h2>
+							<h2>Become <b>A member</b></h2>
 						</div>
 
-						<p>Vidagua.Club is a sister organization to Vidagua Foundation. Vidagua.Club is a grass-rooted organization which spreads in many schools where it serves as an outlet to students who are interested in being involved in community development with high impact.<br>Vidagua.Club creates a tight network between school communities that share ideas and information, and connect schools and beneficiaries of projects.
-							Members of Vidagua.club will go on to become major leaders in their communities.</p>
+						<p>Vidagua.Club works in sync with Vidagua Foundation. All members of Vidagua.club are automatically members of Vidagua Foundation. They are eligible to attend and to vote at Vidagua Foundation annual meetings.
+Click here to become a member</p>
 
-						<!-- <a href="about.html#" class="main-btn">Discover More</a> -->
+                        <a href="#" class="main-btn" style="color:white;">Join Now</a>
+						<!-- <a href="about.html#" class="main-btn" style="color:white;" >Apply for a Chapter </a> -->
+                        
 					</div>
 				</div>
 			</div>

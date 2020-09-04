@@ -1,12 +1,19 @@
+ <!-- This website was built by Frederick Ennin(CEO OF Dollarsoft)
+website: www.dollarstir.com
+ contact +233556676471
+ email:kpin463@gmail.com -->
+
 <!DOCTYPE html>
 <html lang="en">
+
+<?php include 'core.php';?>
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title> Charry | NonProfit Fundraising &amp;Charity HTML Template | ThemeForest</title>
+	<title> Event| Vidagua Club</title>
 
 	<!--Favicon-->
 	<link rel="icon" href="assets/img/favicon.png" type="image/jpg" />
@@ -49,98 +56,7 @@
 
 	<!-- Header Area -->
 
-	<div class="header-area">
-		<div class="sticky-area">
-			<div class="navigation">
-				<div class="row">
-					<div class="col-lg-2">
-						<div class="logo">
-							<a class="navbar-brand" href="event.html#"><img src="assets/img/logo.png" alt=""></a>
-						</div>
-					</div>
-					<div class="col-lg-8">
-						<div class="main-menu">
-							<nav class="navbar navbar-expand-lg">
-								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="navbar-toggler-icon"></span>
-									<span class="navbar-toggler-icon"></span>
-									<span class="navbar-toggler-icon"></span>
-								</button>
-
-								<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-									<ul class="navbar-nav m-auto">
-										<li class="nav-item active">
-											<a class="nav-link" href="event.html#">Home +
-												<span class="sub-nav-toggler"> <i class="fa fa-angle-down"></i>
-												</span>
-											</a>
-											<ul class="sub-menu">
-												<li><a href="index.html">Home-1</a></li>
-												<li><a href="index-2.html">Home-2</a></li>
-												<li><a href="index-3.html">Home-3</a></li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="about.html">About</a>
-										</li>
-
-										<li class="nav-item">
-											<a class="nav-link" href="event.html#">Causes +
-											</a>
-											<ul class="sub-menu">
-												<li><a href="causes.html">Causes</a></li>
-												<li><a href="single-causes.html">Causes Details</a></li>
-											</ul>
-
-										</li>
-
-										<li class="nav-item">
-											<a class="nav-link" href="event.html#">Events +
-											</a>
-											<ul class="sub-menu">
-												<li><a href="event.html">Events</a></li>
-												<li><a href="single-event.html">Events Details</a></li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link dropdown-toggle" href="event.html#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-												Pages +
-											</a>
-											<ul class="sub-menu">
-												<li><a href="about.html">About us</a></li>
-												<li><a href="program.html">Our Programs</a></li>
-												<li><a href="team.html">Our Volunteer</a></li>
-												<li><a href="portfolio.html">Our Gallery</a></li>
-												<li><a href="faq.html">FAQ</a></li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="event.html#">Blog +
-											</a>
-											<ul class="sub-menu">
-												<li><a href="blog.html">Blog</a></li>
-												<li><a href="single-blog.html">Blog Details</a></li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="contact.html">Contact</a>
-										</li>
-									</ul>
-
-								</div>
-							</nav>
-						</div>
-					</div>
-					<div class="col-lg-2 text-right">
-						<div class="header-right-content">
-							<a href="event.html#" class="main-btn">Donate Now</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	<?php topbar();?>
 	<!-- Breadcroumb Area -->
 
 	<div class="breadcroumb-area bread-bg-4">
@@ -149,7 +65,7 @@
 				<div class="col-lg-12">
 					<div class="breadcroumb-title text-center">
 						<h1>Our Events</h1>
-						<h6><a href="index.html">Home</a> / Events</h6>
+						<h6><a href="index.php">Home</a> / Events</h6>
 					</div>
 				</div>
 			</div>
@@ -158,7 +74,7 @@
 
 	<!--Events Area -->
 
-	<div class="event-area section-padding">
+	<!-- <div class="event-area section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="row">
@@ -240,26 +156,25 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- CTA Area-->
 
 	<div class="cta-area theme-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-7 text-center">
-					<h2>Lets make the world <br>better <b>together</b></h2>
-				</div>
-				<div class="col-lg-6 col-md-5 wow fadeInUp animated" data-wow-delay=".2s">
+			<h2>Due to the COVID-19, our events have been postponed until further notice. Sign up for our newsletter to receive updates.</h2>
+
+				<!-- <div class="col-lg-6 col-md-5 wow fadeInUp animated" data-wow-delay=".2s">
 					<a href="event.html#" class="main-btn">Become a Volunteer</a>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 
 	<!-- Footer Area -->
 
-	<footer class="footer-area">
+	<!-- <footer class="footer-area">
 		<div class="container">
 			<div class="footer-up">
 				<div class="row">
@@ -321,7 +236,9 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer> -->
+
+	<?php 	footer();?>
 
 	<!-- Scroll Top Area -->
 

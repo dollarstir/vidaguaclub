@@ -39,15 +39,15 @@ function topbar(){
     <div class="sticky-area">
         <div class="navigation">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2" style="margin-top:-40px;">
                     <div class="logo">
-                        <a class="navbar-brand" href="index.php#"><img src="assets/img/logo.png" alt="" style="width:100px;height:70px;"></a>
+                        <a class="navbar-brand" href="index.php#"><img src="assets/img/logo.png" alt="" style="width:140px;height:100px;"></a>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="main-menu">
                         <nav class="navbar navbar-expand-lg">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-top:-20px;">
                                 <span class="navbar-toggler-icon"></span>
                                 <span class="navbar-toggler-icon"></span>
                                 <span class="navbar-toggler-icon"></span>
@@ -72,7 +72,7 @@ function topbar(){
                                    
                                 </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Our Chapters
+                                        <a class="nav-link" href="chapters.php">Our Chapters
                                         </a>
                                        <!-- <ul class="sub-menu">
                                             <li><a href="causes.html"> Apply for a Chapter</a></li>
@@ -81,7 +81,7 @@ function topbar(){
                                     </li>
                                    
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Membership 
+                                        <a class="nav-link" href="membership.php">Membership 
                                         </a>
                                         <!--<ul class="sub-menu">
                                             <li><a href="about.html">About us</a></li>
