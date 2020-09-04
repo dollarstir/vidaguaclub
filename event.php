@@ -16,8 +16,8 @@ website: www.dollarstir.com
 	<title> Event| Vidagua Club</title>
 
 	<!--Favicon-->
-	<link rel="icon" href="assets/img/favicon.png" type="image/jpg" />
-	<!-- Bootstrap CSS -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">	<!-- Bootstrap CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome CSS-->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">

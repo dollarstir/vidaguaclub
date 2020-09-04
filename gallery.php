@@ -11,7 +11,7 @@ website: www.dollarstir.com
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Chapters Forms|Vidagua Club</title>
+	<title>Gallery |Vidagua Club</title>
 
 	<?php include 'core.php';?>
 
@@ -64,8 +64,8 @@ website: www.dollarstir.com
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcroumb-title text-center">
-						<h1>Our Chapters Forms</h1>
-						<h6><a href="index.php">Home</a> / Chapters Form</h6>
+						<h1>Gallery </h1>
+						<h6><a href="index.php">Home</a> / Gallery</h6>
 					</div>
 				</div>
 			</div>
@@ -74,29 +74,10 @@ website: www.dollarstir.com
 
 	<!-- About Area-->
 
-	<div class="about-area section-padding">
+	<div class="portfolio-area section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
-					<div class="about-image">
-						<img src="assets/cc/vc.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-lg-5">
-					<div class="about-content">
-						<div class="section-title">
-							<!-- <h6>A little B More</h6> -->
-							<h2>Our <b>Chapters Form</b></h2>
-						</div>
-
-						<p>Starting a Chapter with Vidagua.Club is as simple as filling out this form. We will get back to you within 3 business days after reviewing your application to become one of our chapters.
-Click here to get your form now and become a chapter of Vidagua.</p>
-
-                        <a href="#" class="main-btn" style="color:white;">Apply  Now</a>
-						<!-- <a href="about.html#" class="main-btn" style="color:white;" >Apply for a Chapter </a> -->
-                        
-					</div>
-				</div>
+            <p>No picture available at this time. Please visit us again soon. Thank you.</p>
 			</div>
 		</div>
 	</div>

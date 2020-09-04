@@ -63,7 +63,7 @@ function topbar(){
                                         
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.php">About Us</a>
+                                        <a class="nav-link" href="about.php">About</a>
                                     </li>
 
                                     <li class="nav-item">
@@ -72,7 +72,7 @@ function topbar(){
                                    
                                 </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="chapters.php">Our Chapters
+                                        <a class="nav-link" href="chapters.php">Chapters
                                         </a>
                                        <!-- <ul class="sub-menu">
                                             <li><a href="causes.html"> Apply for a Chapter</a></li>
@@ -87,12 +87,12 @@ function topbar(){
                                             <li><a href="about.html">About us</a></li>
                                             <li><a href="program.html">Our Programs</a></li>
                                             <li><a href="team.html">Our Volunteer</a></li>
-                                            <li><a href="portfolio.html">Our Gallery</a></li>
+                                            <li><a href="gallery.php">Our Gallery</a></li>
                                             <li><a href="faq.html">FAQ</a></li>
                                         </ul>-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html#">Project
+                                        <a class="nav-link" href="#">Project
                                         Portfolio
                                         </a>
                                         <!--<ul class="sub-menu">
@@ -101,11 +101,11 @@ function topbar(){
                                         </ul>-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Gallery</a>
+                                        <a class="nav-link" href="gallery.php">Gallery</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html"> Our Store</a>
+                                        <a class="nav-link" href="store.php">Store</a>
                                     </li>
 
                                     
@@ -117,7 +117,7 @@ function topbar(){
                 </div>
                 <div class="col-lg-2 text-right">
                     <div class="header-right-content">
-                        <a href="index.html#" class="main-btn" style="color:white;">Donate Now</a>
+                        <a href="https://pages.donately.com/vidaguafoundation/campaigns" class="main-btn" style="color:white;">Donate Now</a>
                     </div>
                 </div>
             </div>
