@@ -105,7 +105,7 @@ function topbar(){
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="store.php">Store</a>
+                                        <a class="nav-link" target="blank" href="https://squareup.com/dashboard/items/library">Store</a>
                                     </li>
 
                                     
@@ -178,6 +178,11 @@ function clients(){
 }
 
 function footer(){
+    $mail = "";
+    if(isset($_POST['btnss'])){
+        $mail = $_POST['_replyto'];
+
+    }
     
     echo '<footer class="footer-area">
     <div class="container">
@@ -198,16 +203,17 @@ function footer(){
                     <h5>About Us</h5>
                     <ul>
                         <li>
-                            <a href="index.html#">The Water Crisis</a>
-                            <a href="index.html#">Partners</a>
-                            <a href="index.html#">Financials</a>
-                            <a href="index.html#">Contact Us</a>
-                            <a href="index.html#">Meet the Team</a>
-                            <a href="index.html#">Why Water</a>
+                            <a href="#">The Water Crisis</a>
+                            <!--<a href="#">Partners</a>
+                            <a href="#">Financials</a>
+                            <a href="contact.php">Contact Us</a>-->
+                            <a href="#">Meet the Team</a>
+                            <a href="#">Why Water</a>
 
-                            <a href="index.html#">Annual Impact Report</a>
-                            <a href="index.html#">Join Team Water</a>
-                            <a href="index.html#">CSR Engagement</a>
+                            <a href="#">Annual Impact Report</a>
+                            <a href="contact.php#">Contact Us</a>
+                            <a href="#">Chapters</a>
+                           
                             
                         </li>
                     </ul>
@@ -216,9 +222,9 @@ function footer(){
                     <h5>​Solutions​</h5>
                     <ul>
                         <li>
-                            <a href="index.html#">Global Engagement</a>
-                            <a href="index.html#">Monitoring & Evaluation</a>
-                            <a href="index.html#">Water Filtration Systems</a>
+                            <a href="#">Global Engagement</a>
+                            <a href="#">Monitoring & Evaluation</a>
+                            <a href="#">Water Filtration Systems</a>
                             
                         </li>
                     </ul>
@@ -227,22 +233,22 @@ function footer(){
                     <h5>​Events, News and Media</h5>
                     <ul>
                         <li>
-                            <a href="index.html#">Events & Campaigns</a>
-                            <a href="index.html#">In the News</a>
-                            <a href="index.html#">Media Kit</a>
-                            <!-- <a href="index.html#">Free Eduction</a>
-                            <a href="index.html#">Nutritution Fact</a> -->
+                            <a href="#">Events & Campaigns</a>
+                            <a href="#">In the News</a>
+                            <a href="#">Media Kit</a>
+                            <!-- <a href="#">Free Eduction</a>
+                            <a href="#">Nutritution Fact</a> -->
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="subscribe-form">
                         <h5>Subscribe</h5>
-                        <p>Vidagua foundation is a nonproﬁt organization that focuses on delivering clean drinking water to schools, homeless shelters in the United States and in impoverished communities.</p>
-                        <form accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post" id="fs-frm" name="Recieve-Our-Newsletter">
-                           <input type="text" name="name" id="full-name" placeholder="First and Last Name" required="">
-                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                            <button><i class="fa fa-paper-plane"></i></button>
+                        <p>Vidagua.club is a grass-root club started by Vidagua Foundation to allow students in schools around the United States to sponsor water projects for communities fraught with lead poisoning and in poor villages in developing countries</p>
+                        <form accept-charset="utf-8" action="https://formspree.io/info@Vidagua.org" method="post" id="fs-frm" name="Recieve-Our-Newsletter">
+                           <input type="text" style="color:white;" name="name" id="full-name" placeholder="First and Last Name" required="">
+                            <input type="email" style="color:white;" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                            <button name="btnss"><i class="fa fa-paper-plane"></i></button>
                         </form>
                     </div>
                     
@@ -256,7 +262,7 @@ function footer(){
                     <p class="copyright-line">© 2020 Vidagua. All rights reserved.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="privacy">Privacy Policy | Terms &amp; Conditions</p>
+                    <a style="color:white;" class="privacy" href="privacy.php">Privacy Policy <a/> | <a href="tc.php" style="color:white;">   Terms &amp; Conditions</a>
                 </div>
             </div>
         </div>

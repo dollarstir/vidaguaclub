@@ -59,7 +59,7 @@ website: www.dollarstir.com
 
  	<!-- Hero Area -->
 
- 	<div class="hero-area">
+ 	<div class="hero-area" style="height:400px;">
  		<div class="hero-area-content text-center">
  			<div class="container">
  				<div class="row">
