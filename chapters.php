@@ -65,7 +65,7 @@ website: www.dollarstir.com
 				<div class="col-lg-12">
 					<div class="breadcroumb-title text-center">
 						<h1>Our Chapters</h1>
-						<h6><a href="index.php">Home</a> / Chapters</h6>
+						<h6 style="color:white;><a href="index.php">Home</a> / Chapters</h6>
 					</div>
 				</div>
 			</div>

@@ -64,8 +64,8 @@ website: www.dollarstir.com
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcroumb-title text-center">
-						<h1>Our Chapters Forms</h1>
-						<h6><a href="index.php">Home</a> / Chapters Form</h6>
+						<h1>Our Chapters' Forms</h1>
+						<h6 style="color:white;"><a href="index.php">Home</a> /Chapters/ Our Chapters Form</h6>
 					</div>
 				</div>
 			</div>
@@ -86,7 +86,7 @@ website: www.dollarstir.com
 					<div class="about-content">
 						<div class="section-title">
 							<!-- <h6>A little B More</h6> -->
-							<h2>Our <b>Chapters Form</b></h2>
+							<h2>Our <b>Chapters' Form</b></h2>
 						</div>
 
 						<p>Starting a Chapter with Vidagua.Club is as simple as filling out this form. We will get back to you within 3 business days after reviewing your application to become one of our chapters.

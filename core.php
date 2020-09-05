@@ -13,17 +13,17 @@ function topbar(){
             <div class="col-lg-4 col-md-12 col-sm-12">
                 <div class="site-info">
                     <ul>
-                        <li><a href="mailto:mihir_ghosh@live.com"><i class="fa fa-envelope"></i> info@charry.com</a></li>
+                        <li><a href="mailto:info@vidagua.club"><i class="fa fa-envelope"></i> info@vidagua.club</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <p class="welcome-message">Welcome to  <b>Vidagua</b> Club</p>
+                <p class="welcome-message">Welcome to  <b>Vidagua.</b> Club</p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 text-right">
                 <div class="social-icon">
                     <a href="https://www.facebook.com/search/top?q=vidagua%20foundation"><i class="lab la-facebook-f"></i></a>
-                    <a href="https://www.linkedin.com/public-profile/in/vidagua-foundation-2b17951b3?challengeId=AQE6oXbctYSEEgAAAXQYy8KUuGiocBIjTof1MGUkaKY"><i class="lab la-instagram"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/in/vidagua-foundation-2b17951b3?challengeId=AQE6oXbctYSEEgAAAXQYy8KUuGiocBIjTof1MGUkaKY"><i class="lab la-linkedin"></i></a>
                     <a href="https://mobile.twitter.com/VidaguaUS"><i class="lab la-twitter"></i></a>
                     <a href="https://www.instagram.com/vidaguafoundation/"><i class="la la-instagram"></i></a>
                 </div>
@@ -72,12 +72,12 @@ function topbar(){
                                    
                                 </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="chapters.php">Chapters
+                                        <a class="nav-link" href="chapters.php">Chapters <i class="fa fa-angle-down"></i></a>
                                         </a>
-                                       <!-- <ul class="sub-menu">
-                                            <li><a href="causes.html"> Apply for a Chapter</a></li>
-                                            <li><a href="single-causes.html">Chapters’ Activities</a></li>
-                                        </ul>-->
+                                        <ul class="sub-menu">
+                                            <li><a href="chapterform.php"> Apply for a Chapter</a></li>
+                                            <li><a href="#">Chapters’ Activities</a></li>
+                                        </ul>
                                     </li>
                                    
                                     <li class="nav-item">
@@ -92,7 +92,7 @@ function topbar(){
                                         </ul>-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Project
+                                        <a class="nav-link" href="#">
                                         Portfolio
                                         </a>
                                         <!--<ul class="sub-menu">
@@ -117,7 +117,7 @@ function topbar(){
                 </div>
                 <div class="col-lg-2 text-right">
                     <div class="header-right-content">
-                        <a href="https://pages.donately.com/vidaguafoundation/campaigns" class="main-btn" style="color:white;">Donate Now</a>
+                        <a href="https://pages.donately.com/vidaguafoundation/campaigns" class="main-btn" style="color:white;">Donate</a>
                     </div>
                 </div>
             </div>
