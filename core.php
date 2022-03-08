@@ -245,7 +245,7 @@ function footer(){
                     <div class="subscribe-form">
                         <h5>Subscribe</h5>
                         <p>Vidagua.club is a grass-root club started by Vidagua Foundation to allow students in schools around the United States to sponsor water projects for communities fraught with lead poisoning and in poor villages in developing countries</p>
-                        <form accept-charset="utf-8" action="https://formspree.io/info@Vidagua.org" method="post" id="fs-frm" name="Recieve-Our-Newsletter">
+                        <form accept-charset="utf-8" action="https://formspree.io/Rjantio@sterlingus.com" method="post" id="fs-frm" name="Recieve-Our-Newsletter">
                            <input type="text" style="color:white;" name="name" id="full-name" placeholder="First and Last Name" required="">
                             <input type="email" style="color:white;" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
                             <button name="btnss"><i class="fa fa-paper-plane"></i></button>
@@ -268,6 +268,17 @@ function footer(){
         </div>
     </div>
 </footer>';
+}
+
+
+switch ($variable) {
+    case 'value':
+        # code...
+        break;
+    
+    default:
+        # code...
+        break;
 }
 
 
